@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Zen+Loop',sans-serif;
+
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar{
+    position: sticky ;
+    top: 0%;
+    background: white;
+}
+.bold{
+    color: rgb(40, 117, 17);
+    font-size: 50px;
+}
+li{
+    
+    padding: 5px;
+    
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgba(8, 148, 15, 0.801);
+    transition: .1s;
+
+}
+    
+
+span{
+    color:rgb(62, 95, 25);
+}
+
+p{
+    font-size: 20px;
+}
+.newslide{
+    font-size: 40px;
+    color: cadetblue;
+
+}
+#New img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 25px;
+}
+
+
+/*-----service---*/
+
+.card img{
+    height: 300px;
+}
+.card-text{
+    height: 350px;
+}
+form{
+    padding: 50px;
+    box-shadow: 2px 2px 2px 5px red;
+    border-radius: 30px;
+}
